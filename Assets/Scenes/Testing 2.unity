@@ -338,6 +338,16 @@ PrefabInstance:
       propertyPath: invincibleLength
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7594323472552022093, guid: dc11cf53819b1da42a0f3226f2b6798a,
+        type: 3}
+      propertyPath: knockBackLength
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594323472552022093, guid: dc11cf53819b1da42a0f3226f2b6798a,
+        type: 3}
+      propertyPath: knockBackForce
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7594323472552022095, guid: dc11cf53819b1da42a0f3226f2b6798a,
         type: 3}
       propertyPath: m_LocalPosition.x
