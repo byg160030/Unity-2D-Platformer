@@ -34,4 +34,9 @@ public class CheckpointController : MonoBehaviour
             checkpoints[i].ResetCheckpoint();
         }
     }
+
+    public void SetSpawnPoint(Vector3 newSpawnPoint)
+    {
+        spawnPoint = newSpawnPoint;
+    }
 }
