@@ -8,6 +8,8 @@ public class Pickup : MonoBehaviour
 
     private bool isCollected;
 
+    public GameObject pickupEffect;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +33,8 @@ public class Pickup : MonoBehaviour
                 isCollected = true;
                 Destroy(gameObject);
 
+                Instantiate(pickupEffect, transform.position, transform.rotation);
+
                 UIController.instance.UpdateGemCount();
             }
 
@@ -42,6 +46,8 @@ public class Pickup : MonoBehaviour
 
                     isCollected = true;
                     Destroy(gameObject);
+
+                    Instantiate(pickupEffect, transform.position, transform.rotation);
                 }
             }
         }
