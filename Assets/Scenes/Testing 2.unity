@@ -472,27 +472,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1196555922640680543, guid: dc11cf53819b1da42a0f3226f2b6798a,
-        type: 3}
-      propertyPath: invincibleLength
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1196555922640680543, guid: dc11cf53819b1da42a0f3226f2b6798a,
-        type: 3}
-      propertyPath: deathEffect
-      value: 
-      objectReference: {fileID: 2497663615146311709, guid: 02251b5a99d2e98448a0dd9857afed78,
-        type: 3}
-    - target: {fileID: 7594323472552022093, guid: dc11cf53819b1da42a0f3226f2b6798a,
-        type: 3}
-      propertyPath: knockBackLength
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 7594323472552022093, guid: dc11cf53819b1da42a0f3226f2b6798a,
-        type: 3}
-      propertyPath: knockBackForce
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 7594323472552022095, guid: dc11cf53819b1da42a0f3226f2b6798a,
         type: 3}
       propertyPath: m_LocalPosition.x
