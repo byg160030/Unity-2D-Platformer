@@ -6,6 +6,9 @@ public class Stompbox : MonoBehaviour
 {
     public GameObject deathEffect;
 
+    public GameObject collectible;
+    [Range(0, 100)]public float chanceToDrop;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +32,13 @@ public class Stompbox : MonoBehaviour
             Instantiate(deathEffect, other.transform.position, other.transform.rotation);
 
             PlayerController.instance.Bounce();
+
+            float dropSelect = Random.Range(0, 100f);
+
+            if(dropSelect <= chanceToDrop)
+            {
+                Instantiate(collectible, other.transform.position, other.transform.rotation);
+            }
         }
     }
 }

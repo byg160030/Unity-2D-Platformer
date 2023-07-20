@@ -1089,6 +1089,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathEffect: {fileID: 2497663615146311709, guid: 02251b5a99d2e98448a0dd9857afed78,
     type: 3}
+  collectible: {fileID: 82394577660709990, guid: 3235e4f7d767d614597b16a4500af552,
+    type: 3}
+  chanceToDrop: 25
 --- !u!4 &1115447897 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2546604041973800446, guid: 95ef9b4a2195d2b419448fecbb7e95cb,
