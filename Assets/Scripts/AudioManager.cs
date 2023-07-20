@@ -29,6 +29,8 @@ public class AudioManager : MonoBehaviour
     {
         soundEffects[soundToPlay].Stop();
 
+        soundEffects[soundToPlay].pitch = Random.Range(.9f, 1.1f);
+
         soundEffects[soundToPlay].Play();
     }
 }
