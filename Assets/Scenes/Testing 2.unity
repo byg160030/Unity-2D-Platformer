@@ -502,6 +502,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7594323472552022093, guid: dc11cf53819b1da42a0f3226f2b6798a,
+        type: 3}
+      propertyPath: bounceForce
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7594323472552022095, guid: dc11cf53819b1da42a0f3226f2b6798a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1057,7 +1062,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.06128338, y: 0.027640343}
+  m_Offset: {x: -0.058916852, y: 0.07788181}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1068,7 +1073,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7821036, y: 0.3198805}
+  m_Size: {x: 0.47318748, y: 0.2977724}
   m_EdgeRadius: 0
 --- !u!114 &1079875706
 MonoBehaviour:
