@@ -1628,6 +1628,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 9.6
       objectReference: {fileID: 0}
+    - target: {fileID: 5112411559078569183, guid: 0a6dc864d89fd4049908dee42c00518c,
+        type: 3}
+      propertyPath: levelToLoad
+      value: Level Select
+      objectReference: {fileID: 0}
     - target: {fileID: 5112411559080644016, guid: 0a6dc864d89fd4049908dee42c00518c,
         type: 3}
       propertyPath: m_LocalPosition.x
