@@ -13,6 +13,8 @@ public class LevelManager : MonoBehaviour
 
     public string levelToLoad;
 
+    public float timeInLevel;
+
     private void Awake()
     {
         instance = this;
@@ -21,13 +23,13 @@ public class LevelManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        timeInLevel = 0f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        timeInLevel += Time.deltaTime;
     }
 
     public void RespawnPlayer()
@@ -76,6 +78,10 @@ public class LevelManager : MonoBehaviour
         yield return new WaitForSeconds((1f / UIController.instance.fadeSpeed) + .25f);
 
         PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_unlocked", 1);
+
+        PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_gems", gemsCollected);
+        PlayerPrefs.SetFloat(SceneManager.GetActiveScene().name + "_time", timeInLevel);
+
 
         SceneManager.LoadScene(levelToLoad);
     }
