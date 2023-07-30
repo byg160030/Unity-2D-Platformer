@@ -40,6 +40,8 @@ public class LSManager : MonoBehaviour
 
     public IEnumerator LoadLevelCo()
     {
+        AudioManager.instance.PlaySFX(4);
+
         LSUIController.instance.FadeToBlack();
 
         yield return new WaitForSeconds((1f / LSUIController.instance.fadeSpeed) + .25f);
