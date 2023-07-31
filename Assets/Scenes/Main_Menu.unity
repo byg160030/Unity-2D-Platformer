@@ -506,6 +506,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &551547337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2265388946689419064, guid: 7fa43eed285fac942a21f8cb93a0a3fe,
+    type: 3}
+  m_PrefabInstance: {fileID: 627985782}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &627985782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1077,6 +1083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startScene: Level1-1
   continueScene: Level Select
+  continueButton: {fileID: 551547337}
 --- !u!1001 &2265388946837158562
 PrefabInstance:
   m_ObjectHideFlags: 0
